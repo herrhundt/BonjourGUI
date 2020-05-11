@@ -13,7 +13,7 @@ public class Controller {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Hinweis");
         alert.setHeaderText("Dies ist ein Hinweis");
-        alert.setContentText("Hallo Julian!");
+        alert.setContentText("Hallo Volkmar!");
         alert.showAndWait();
     }
 }
