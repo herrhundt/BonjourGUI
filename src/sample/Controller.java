@@ -11,9 +11,9 @@ public class Controller {
 
     private void showAlertWithHeaderText() {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("Hinweis");
-        alert.setHeaderText("Dies ist ein Hinweis");
-        alert.setContentText("Hallo Volkmar - das ist cool!!");
+        alert.setTitle("Nerd-Alert!");
+        alert.setHeaderText("Wow - du hast auf meinen Button geklickt! ");
+        alert.setContentText("Okay, ein Pop-Up - aber schaffst du vielleicht auch noch mehr? Wie wäre es mit einem Bild?!");
         alert.showAndWait();
     }
 }

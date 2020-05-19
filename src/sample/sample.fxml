@@ -6,11 +6,26 @@
 <GridPane alignment="center" hgap="10" prefHeight="300.0" prefWidth="300.0" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <columnConstraints>
       <ColumnConstraints />
+      <ColumnConstraints />
    </columnConstraints>
    <rowConstraints>
       <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
    </rowConstraints>
    <children>
-      <Button fx:id="btn1" mnemonicParsing="false" onAction="#pressButton" text="Klick dich selbst!!" />
+      <Button fx:id="btn1" mnemonicParsing="false" onAction="#pressButton" text="Hundts Button" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Button mnemonicParsing="false" text="Henrys Button" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Button mnemonicParsing="false" text="Noahs' Button" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Button contentDisplay="CENTER" mnemonicParsing="false" text="Tims Button" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Button mnemonicParsing="false" text="Nicolás' Button" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+      <Button mnemonicParsing="false" text="Torbens Button" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+      <Button mnemonicParsing="false" text="Adrians Button" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+
    </children>
 </GridPane>
