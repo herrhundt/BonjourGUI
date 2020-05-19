@@ -1,11 +1,19 @@
 package sample;
 
 import javafx.event.ActionEvent;
-public class Controller
-{
-    public void pressButton(ActionEvent evt)
-    {
-        System.out.println("Test");
+import javafx.scene.control.Alert;
+
+public class Controller {
+
+    public void pressButton(ActionEvent evt) {
+        showAlertWithHeaderText();
     }
 
+    private void showAlertWithHeaderText() {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Hinweis");
+        alert.setHeaderText("Dies ist ein Hinweis");
+        alert.setContentText("Hallo Volkmar - das ist cool!!");
+        alert.showAndWait();
+    }
 }

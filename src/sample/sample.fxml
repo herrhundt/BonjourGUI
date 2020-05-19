@@ -11,6 +11,6 @@
       <RowConstraints />
    </rowConstraints>
    <children>
-      <Button fx:id="btn1" mnemonicParsing="false" onAction="#pressButton" text="Button" />
+      <Button fx:id="btn1" mnemonicParsing="false" onAction="#pressButton" text="Klick dich selbst!!" />
    </children>
 </GridPane>
