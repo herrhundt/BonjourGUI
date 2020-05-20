@@ -8,7 +8,7 @@ import java.io.IOException;
 public class Controller {
 
     public void pressButton(ActionEvent evt) {
-        showAlertWithHeaderText();
+        adrianButton();
     }
     public void pressButtonAdrian(ActionEvent evt) {
         showAlertWithHeaderText();
