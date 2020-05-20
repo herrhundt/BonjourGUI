@@ -11,7 +11,7 @@ public class Controller {
         adrianButton();
     }
     public void pressButtonAdrian(ActionEvent evt) {
-        showAlertWithHeaderText();
+        adrianButton();
     }
 
     private void showAlertWithHeaderText() {
