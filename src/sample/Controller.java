@@ -16,4 +16,16 @@ public class Controller {
         alert.setContentText("Okay, ein Pop-Up - aber schaffst du vielleicht auch noch mehr? Wie wäre es mit einem Bild?!");
         alert.showAndWait();
     }
+
+    public void pressButton6(ActionEvent evt){
+        showAlertWithHeaderText6();
+    }
+
+    private void showAlertWithHeaderText6(){
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("lol");
+        alert.setHeaderText("Funktioniert das?");
+        alert.setContentText("ich hoffe es");
+        alert.showAndWait();
+    }
 }

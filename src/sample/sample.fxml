@@ -24,7 +24,7 @@
       <Button mnemonicParsing="false" text="Noahs' Button" GridPane.columnIndex="1" GridPane.rowIndex="3" />
       <Button contentDisplay="CENTER" mnemonicParsing="false" text="Tims Button" GridPane.columnIndex="1" GridPane.rowIndex="4" />
       <Button mnemonicParsing="false" text="Nicolás' Button" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-      <Button mnemonicParsing="false" text="Torbens Button" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+      <Button fx:id="btn6" mnemonicParsing="false" onAction="#pressButton6" text="Torbens Button" GridPane.columnIndex="1" GridPane.rowIndex="6" />
       <Button mnemonicParsing="false" text="Adrians Button" GridPane.columnIndex="1" GridPane.rowIndex="7" />
 
    </children>
