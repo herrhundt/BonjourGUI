@@ -50,7 +50,7 @@ public class Controller {
             String ausgabe = result.get();
             Alert alert2 = new Alert(Alert.AlertType.ERROR);
             alert2.setTitle("Error 404");
-            alert2.setHeaderText("Der Name " + ausgabe + " ist leider bereits vergeben");
+            alert2.setHeaderText("Ich habe bereits einen Sidekick namens " + ausgabe);
             alert2.setContentText("Bitte versuch es erneut");
             alert2.showAndWait();
         }
