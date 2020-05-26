@@ -25,7 +25,7 @@ public class Controller {
 
     private void showAlertWithHeaderText2() {
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
-        alert.setTitle("Hey folks");
+        alert.setTitle("Hey folks!");
         alert.setHeaderText("Hier süßes Bild, cause why not... ");
         Image image = new Image("https://i.pinimg.com/originals/df/d1/f3/dfd1f3d09b2b2004747e6fb9fb940dd7.png");
         ImageView imageView = new ImageView(image);
