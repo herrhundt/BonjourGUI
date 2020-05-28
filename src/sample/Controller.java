@@ -16,9 +16,10 @@ import java.util.Optional;
 
 public class Controller {
 
-    public void pressButton(ActionEvent evt) {
-        showAlertWithHeaderText();
-    }
+    public void pressButton(ActionEvent evt) {        showAlertWithHeaderText();    }
+    public void pressButton1 (ActionEvent evt) {     showAlertWithHeaderText1();    }
+    public void pressNicosButton(ActionEvent evt) {        showAlertWithHeaderText2();    }
+
 
     private void showAlertWithHeaderText() {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
@@ -45,43 +46,12 @@ public class Controller {
             catch(Exception e){
                 alert.close();
             }
-
-
-
-
         }
 
         alert.showAndWait();
     }
 
 
-
-        /* Hyperlink link = new Hyperlink();
-        link.setText("http://example.com");
-        link.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent e) {
-                //hyperlink.setOnAction(Desktop.getDesktop().browse(new URI("https://www.youtube.com/watch?v=dQw4w9WgXcQ")));
-            }
-        }); */
-
-        //Hyperlink hyperlink = new Hyperlink("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
-
-
-
-        //alert.setHeaderText("http://example.com");
-
-
-
-
-    }
-
-
-
-
-    public void pressNicosButton(ActionEvent evt) {
-        showAlertWithHeaderText2();
-    }
 
     private void showAlertWithHeaderText2() {
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
