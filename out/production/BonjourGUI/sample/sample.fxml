@@ -19,6 +19,7 @@
       <RowConstraints />
    </rowConstraints>
    <children>
+
       <Button fx:id="btn1" mnemonicParsing="false" onAction="#pressButton" text="Hundts Button" GridPane.columnIndex="1" GridPane.rowIndex="1" />
       <Button mnemonicParsing="false" text="Henrys Button" onAction="#pressButton1" GridPane.columnIndex="1" GridPane.rowIndex="2" />
       <Button mnemonicParsing="false" text="Noahs' Button" GridPane.columnIndex="1" GridPane.rowIndex="3" />
